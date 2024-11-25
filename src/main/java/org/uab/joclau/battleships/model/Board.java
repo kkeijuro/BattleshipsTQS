@@ -61,8 +61,8 @@ public class Board {
      *                     placed horizontally, false otherwise
      * @return true if the placement is valid, false otherwise
      */
-    public boolean isValidPlacement(final Ship ship, final int x,
-                                    final int y, final boolean isHorizontal) {
+    public boolean isValidPlacement(Ship ship, int x,
+                                    int y, boolean isHorizontal) {
         return isHorizontal;
     }
 

@@ -4,7 +4,5 @@ package org.uab.joclau.battleships;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
 
-
-
 }
 
