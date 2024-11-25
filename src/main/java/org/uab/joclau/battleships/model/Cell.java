@@ -1,22 +1,60 @@
 package org.uab.joclau.battleships.model;
 
+/**
+ * Represents a cell on the game board.
+ * A cell can be occupied and hit during the game.
+ */
 public class Cell {
-  int x,y;
-  //Ubicació
-  boolean tocat;
-  //Si s'ha escollit la casella
 
-  boolean ocupada;
-  //Si la cell està ocupada
+  /**
+   * The x-coordinate of the cell.
+   */
+  private int x;
 
-  public void occupy(){}
-  public void hit(){}
-  public boolean isOccupied(){
+  /**
+   * The y-coordinate of the cell.
+   */
+  private int y;
 
-    return false;
+  /**
+   * True if the cell has been hit, false otherwise.
+   */
+  private boolean tocat;
+
+  /**
+   * True if the cell is occupied, false otherwise.
+   */
+  private boolean ocupada;
+
+  /**
+   * Marks the cell as occupied.
+   */
+  public void occupy() {
+    ocupada = true;
   }
-  public boolean isHit(){
 
-    return false;
+  /**
+   * Marks the cell as hit.
+   */
+  public void hit() {
+    tocat = true;
+  }
+
+  /**
+   * Checks if the cell is occupied.
+   *
+   * @return true if the cell is occupied, false otherwise
+   */
+  public boolean isOccupied() {
+    return ocupada;
+  }
+
+  /**
+   * Checks if the cell has been hit.
+   *
+   * @return true if the cell has been hit, false otherwise
+   */
+  public boolean isHit() {
+    return tocat;
   }
 }
