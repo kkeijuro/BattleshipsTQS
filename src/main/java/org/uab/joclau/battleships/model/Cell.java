@@ -25,6 +25,7 @@ public class Cell {
    * True if the cell is occupied, false otherwise.
    */
   private boolean ocupada;
+  
 
   /**
    * Marks the cell as occupied.
