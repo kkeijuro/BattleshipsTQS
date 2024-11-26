@@ -4,6 +4,7 @@ package org.uab.joclau.battleships.model;
  * Represents a cell on the game board.
  * A cell can be occupied and hit during the game.
  */
+
 public class Cell {
 
   /**
