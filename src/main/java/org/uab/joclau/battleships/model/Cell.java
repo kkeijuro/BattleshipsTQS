@@ -4,6 +4,7 @@ package org.uab.joclau.battleships.model;
  * Represents a cell on the game board.
  * A cell can be occupied and hit during the game.
  */
+
 public class Cell {
 
   /**
@@ -25,6 +26,7 @@ public class Cell {
    * True if the cell is occupied, false otherwise.
    */
   private boolean ocupada;
+  
 
   /**
    * Marks the cell as occupied.
